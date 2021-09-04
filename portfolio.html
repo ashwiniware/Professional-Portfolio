@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>Ashwini Ware Portfolio</title>
+</head>
+
+<body>
+  <main class='main'>
+    <nav class='navBar'>
+      <h1>Ashwini Ware Portfolio</h1>
+      <div class='navigationMenu'>
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactForm">Let's Connect!</a>
+        <div>
+    </nav>
+    <section class='heroSection'>
+      <img class='profileImage' src='img/avatar-svgrepo-com.svg' />
+      <div class='herosectionDetails'>
+        <h1>Ashwini Ware</h1>
+        <h3>Full-Stack Developer at ShapeAI</h3>
+      </div>
+    </section>
+    <section class='aboutMe' id='aboutMe'>
+      <h1>What I Do...</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non sit facilis culpa quae repellendus temporibus
+        inventore accusantium, officiis obcaecati tenetur reiciendis rerum odit. Delectus vero odio iste possimus aut
+        similique.
+        Alias ad ipsam magnam cupiditate error, sapiente nam quos eveniet quisquam incidunt illo minima suscipit culpa
+        esse, recusandae exercitationem porro voluptatum. Voluptatum, maiores assumenda fugit facere vitae magnam veniam
+        at!
+        Aspernatur commodi reiciendis dolores? Facilis enim ipsum quasi quas unde minima? Earum eveniet aut aspernatur
+        dolorum minima nostrum facere repudiandae consequuntur incidunt, sed ipsum quidem libero, architecto voluptatum
+        laudantium debitis?</p>
+    </section>
+    <section class='skillsAndProjects'>
+      <div class='skills' id='skills'>
+        <h1 class='cardHeading'>Skills</h1>
+        <img title='HTML' src='img/html-svgrepo-com.svg'>
+        <img title='CSS' src='img/css-svgrepo-com.svg'>
+        <img title='Javascript' src='img/javascript-svgrepo-com.svg'>
+        <img title='Node.JS' src='img/logo-nodejs-svgrepo-com.svg'>
+        <img title='React' src='img/react-svgrepo-com.svg'>
+        <img title='MongoDB' src='img/mongodb-svgrepo-com.svg'>
+        <img title='Firebase' src='img/firebase-svgrepo-com.svg'>
+        <img title='Redux' src='img/redux-svgrepo-com.svg'>
+      </div>
+      <div class='projects' id='projects'>
+        <h1 class='cardHeading'>Projects</h1>
+        <div class='projectContainer'>
+          <img src='img/python-svgrepo-com.svg' />
+          <div class='projectDescription'>
+            <h4>Python Project</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi nihil, quo neque reprehenderit et
+              eaque deleniti fugiat repellat harum incidunt eligendi autem. Tempore, consectetur. Voluptate ducimus
+              voluptas autem! Autem.</p>
+          </div>
+        </div>
+        <div class='projectContainer'>
+          <img src='img/java-svgrepo-com.svg' />
+          <div class='projectDescription'>
+            <h4>Java Project</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, aperiam libero earum distinctio
+              consectetur quas, expedita voluptate est quo atque, molestiae impedit officia ullam a cupiditate error
+              voluptas repudiandae maiores.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='contactForm' id='contactForm'>
+      <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br />
+          <input type='text' id='name' placeholder='Full Name' />
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br />
+          <input type='text' id='email' placeholder='Email' />
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br />
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <div class="button">
+          <button class='submitButton' onClick={submit()}>Connect</button>
+        </div>
+      </section>
+  </main>
+</body>
+
+</html>
